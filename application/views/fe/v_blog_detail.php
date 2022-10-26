@@ -138,7 +138,7 @@
                     <h3>Popular</h3>
                   <?php foreach ($populer->result() as $row) :?>
                     <div class="blog-featured-img_block">
-                        <h5><a href="<?php echo site_url('fe/blog/detail/'.$row->title);?>"><?php echo limit_words($row->title,3).'...';?></a></h5>
+                        <h5><a href="<?php echo site_url('blog/detail/'.$row->id);?>"><?php echo limit_words($row->title,3).'...';?></a></h5>
                         <p><?php echo limit_words($row->content,5).'...';?></p>
                     </div>
                     <hr>

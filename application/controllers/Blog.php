@@ -46,7 +46,7 @@ class Blog extends CI_Controller{
 	
 	function detail($slugs){
 		$slug=htmlspecialchars($slugs,ENT_QUOTES);
-		$query = $this->db->get_where('posts', array('title' => $slug));
+		$query = $this->db->get_where('posts', array('id' => $slug));
 		if($query->num_rows() > 0){
 			$b=$query->row_array();
 			$kode=$b['id'];

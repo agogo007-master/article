@@ -54,7 +54,7 @@
                         <?php echo limit_words($row->content,10).'...';?>
                         <div class="blog-icons">
                             <div class="blog-share_block">
-                                <a href="<?php echo site_url('blog/detail/'.$row->title);?>">Read More</a>
+                                <a href="<?php echo site_url('blog/detail/'.$row->id);?>">Read More</a>
                             </div>
                         </div>
                     </div>
