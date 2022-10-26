@@ -1,3 +1,3 @@
 - Fullstack Menggunakan Framework Codeigniter Versi 3
 - Database MySql di dalam folder Database
-- tampilan pengunjung dan juga daahboard admin login
+- tampilan pengunjung dan juga dashboard admin login
