@@ -1,0 +1,83 @@
+.btn-floating {
+	position: fixed;
+	left: 25px;
+	overflow: hidden;
+	width: 60px;
+	height: 60px;
+	border-radius: 100px;
+	border: 0;
+	z-index: 9999;
+	color: white;
+	transition: .2s;
+	background: #321eb3;
+	top: 60%;
+	transform: translateY(-50%);
+}
+
+.btn-floating:hover {
+	width: auto;
+	padding: 0 20px;
+	cursor: pointer;
+}
+
+.btn-floating span {
+	font-size: 20px;
+	margin-left: 5px;
+	transition: .2s;
+	line-height: 0px;
+	display: none;
+}
+
+.btn-floating:hover span {
+	display: inline-block;
+}
+
+.btn-floating:hover img {
+	margin-bottom: -3px;
+}
+
+.btn-floating.investor {
+	top: 50%;
+	background-color: #321eb3;
+	/*border: 2px solid #fff;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-floating i {
+	font-size: 20px;
+}
