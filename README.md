@@ -1,3 +1,4 @@
 - Fullstack Menggunakan Framework Codeigniter Versi 3
 - Database MySql di dalam folder Database
 - tampilan pengunjung dan juga dashboard admin login
+- login [ username:admin, password:123456]
